@@ -29,7 +29,7 @@
   .logo {
     font-size: 32px;
     font-weight: bold;
-    color: #20c52e;
+    color: #375b91;
   }
   
   .nav-links {
@@ -46,7 +46,7 @@
   
   .nav-links .btn {
     padding: 10px 20px;
-    background-color:#20c52e;;
+    background-color:#2975a8;;
     color: white;
     border-radius: 5px;
     text-decoration: none;
@@ -73,7 +73,7 @@
   
   .hero-btn {
     padding: 15px 30px;
-    background-color: #20c52e;;
+    background-color: #2975a8;;;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -89,7 +89,7 @@
   
   .features h2 {
     font-size: 32px;
-    color: #333;
+    color: #372eaf;
     margin-bottom: 10px;
   }
   
@@ -120,7 +120,7 @@
   
   .feature-card h3 {
     font-size: 18px;
-    color: #0366d6;
+    color: #09487c;
     margin-bottom: 10px;
   }
   
@@ -129,3 +129,9 @@
     color: #666;
   }
   
+  .howitWorks h2 {
+    font-size: 32px;
+    color: #372eaf;
+    margin-bottom: 10px;
+
+  }
