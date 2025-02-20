@@ -54,7 +54,6 @@
   }
   
   .hero {
-    background-color: #f4f9ff;
     padding: 100px 0;
     text-align: center;
   }
@@ -179,3 +178,12 @@
     margin: 0 auto;
     padding: 20px 0 ;
   }
+
+  #intro-section {
+    background-image: url(image1.jpg);
+    background-size: 78px ;/* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    padding: 85px 5px; /* Adjust padding as needed */
+    color: white; /* Change the text color for better contrast */
+}
