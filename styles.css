@@ -20,7 +20,7 @@
   
   .navbar {
     background-color: #fff;
-    padding: 20px 0;
+    padding: 0px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 98%;
@@ -38,7 +38,7 @@
   }
   
   .logo-image {
-    width: 120px; /* Adjust size as needed */
+    width: 60px; /* Adjust size as needed */
     margin-right: 10px; /* Space between logo and text */
     border-radius: 50%; /* This makes the image circular */
     margin-right: 10px; /* Space between the logo and text */
