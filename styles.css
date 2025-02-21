@@ -7,6 +7,10 @@
   h1, h2, h3, h4, h5, h6 {
     padding-top: 7%;
   }
+
+  #h2f{
+    padding-top: 2.5%;
+  }
   
   body {
     font-family: Arial, sans-serif;
