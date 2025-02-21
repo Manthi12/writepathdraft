@@ -33,6 +33,36 @@
   }
   
   .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    width: 120px; /* Adjust size as needed */
+    margin-right: 10px; /* Space between logo and text */
+    border-radius: 50%; /* This makes the image circular */
+    margin-right: 10px; /* Space between the logo and text */
+    object-fit: cover; 
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+
+  
+  .logo {
     font-size: 32px;
     font-weight: bold;
     color: #375b91;
