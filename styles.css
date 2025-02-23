@@ -1,4 +1,4 @@
-* body {
+* body, .pricing{
   background-image: url(background1.jpg);
   background-size: cover; /* Ensures the image covers the entire background */
   background-position: center; /* Centers the image */
@@ -8,7 +8,7 @@
 
 
 
-{
+*{
     margin: 5px;
     padding: 5px;
     box-sizing: border-box;
