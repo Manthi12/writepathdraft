@@ -420,11 +420,7 @@
   text-align: center;
 }
 
-.community h2 {
-  font-size: 36px;
-  color: #333;
-  margin-bottom: 20px;
-}
+
 
 .community p {
   font-size: 18px;
@@ -477,4 +473,16 @@
 
 .community .btn:hover {
   background-color: #2980b9;
+}
+
+.pricing-image {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.pricing-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
