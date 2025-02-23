@@ -1,4 +1,14 @@
-* {
+* body {
+  background-image: url(background1.jpg);
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating the image */
+  background-attachment: fixed; /* Makes the background fixed when scrolling */
+}
+
+
+
+{
     margin: 5px;
     padding: 5px;
     box-sizing: border-box;
@@ -476,12 +486,12 @@
 }
 
 .pricing-image {
-  margin-top: 30px;
+  margin-top: 31px;
   text-align: center;
 }
 
 .pricing-image img {
-  max-width: 100%;
+  max-width: 99%;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
