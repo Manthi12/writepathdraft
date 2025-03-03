@@ -6,6 +6,8 @@
   <title>WritePath</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+<div class="main-content">
+
 <body>
   <!-- Navigation -->
   <nav class="navbar">
@@ -30,12 +32,12 @@
     <div class="container hero-content">
       <h1>Turn Your Story Ideas Into Reality</h1>
       <p>WritePath guides you through the journey of writing your novel with AI-powered assistance, structured prompts, and a supportive community.</p>
-      <a href="http://localhost:5173" class="btn hero-btn">Get Started</a>
+      <a href="http://localhost:5173" class="btn hero-btn" id="features">Get Started</a>
     </div>
   </section>
 
   <!-- Features Section -->
-  <section class="features" id="features">
+  <section class="features" >
     <div class="container">
       <h2 id="h2f">Everything You Need to Write Your Novel</h2>
       <p>Powerful tools and features designed to support your writing journey</p>
@@ -58,14 +60,14 @@
         <div class="feature-card">
           <div class="feature-icon">✏️</div>
           <h3>Writing Prompts</h3>
-          <p>Access daily prompts and exercises to spark your creativity and maintain momentum.</p>
+          <p id="howitWorks">Access daily prompts and exercises to spark your creativity and maintain momentum.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- How it Works Section -->
-  <section class="howitWorks" id="howitWorks">
+  <section class="howitWorks" >
     <div class="container">
       <h2>Let's See How WritePath Works</h2>
       <div class="steps-container">
@@ -87,14 +89,14 @@
         <div class="step">
           
           <h3>Step 4: Share and Get Feedback</h3>
-          <p>Share your work with the community and get valuable feedback to improve your writing.</p>
+          <p id="community">Share your work with the community and get valuable feedback to improve your writing.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Community Section -->
-  <section class="community" id="community">
+  <section class="community" >
     <div class="container">
       <h2>Join the WritePath Community</h2>
       <p>Writing is more fun when you’re not alone! Join our vibrant community to connect with fellow writers, share ideas, get feedback, and participate in exciting writing challenges.</p>
@@ -137,13 +139,13 @@
         </div>
       </div>
       
-      <a href="https://discord.gg/QzUnQFmgPZ" target="_blank" class="btn">Join Our Discord</a>
+      <a href="https://discord.gg/QzUnQFmgPZ" target="_blank" class="btn" id="pricing">Join Our Discord</a>
     </div>
   </section>
   
 
   <!-- Pricing Section -->
-  <section class="pricing" id="pricing" >
+  <section class="pricing">
     <div class="container">
       <h2>Pricing Plans</h2>
       <p>Choose a plan that fits your writing journey.</p>
@@ -195,6 +197,7 @@
   </section>
   
 </body>
+</div>
 
 <!--footer-->
 <footer class="footer">
@@ -208,18 +211,15 @@
         <h3>Quick Links</h3>
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Community</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#community">Community</a></li>
         </ul>
       </div>
       <div class="footer-section">
         <h3>Follow Us</h3>
         <div class="social-icons">
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-discord"></i></a>
+          <a href="https://www.instagram.com/write_path_"><i class="fab fa-instagram">Instagram</i></a>
         </div>
       </div>
     </div>

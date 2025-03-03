@@ -8,13 +8,13 @@
 
 
 
-*{
+*:not(.navbar){
     margin: 5px;
     padding: 5px;
     box-sizing: border-box;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5, h6{
     padding-top: 7%;
   }
 
@@ -32,13 +32,17 @@
     margin: 0 auto;
   }
   
+  
   .navbar {
     background-color: #fff;
-    padding: 0px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: fixed;
-    width: 98%;
-  }
+    top: 0;  /* Ensures it's at the very top */
+    left: 0; /* Removes gaps on the left */
+    right: 0; /* Removes gaps on the right */
+    width: 100%; /* Ensures full width */
+    z-index: 1000; /* Keeps it above other elements */
+}
   
   .navbar .container {
     display: flex;
@@ -360,9 +364,18 @@
 .footer {
   background-color: #333;
   color: white;
-  padding: 40px 0;
   text-align: center;
+  width: 102.1%;
+  position: relative; /* Default for normal flow */
+  bottom: -50px;
+  left: -25px;
+
 }
+
+
+
+
+
 
 .footer-grid {
   display: flex;
@@ -495,4 +508,8 @@
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-content {
+  flex: 1; /* Pushes footer to bottom */
 }
