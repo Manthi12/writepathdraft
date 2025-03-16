@@ -449,7 +449,6 @@
 
 /* Community Section */
 .community {
-  background-color: #f9f9f9;
   padding: 50px 0;
   text-align: center;
 }
@@ -469,8 +468,11 @@
   margin-bottom: 30px;
 }
 
+.community-feature{
+  background-color: #f4f6f8;
+}
+
 .community .community-feature {
-  background-color: #fff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
