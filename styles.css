@@ -1,5 +1,5 @@
 * body, .pricing{
-  background-image: url(image12.jpg);
+  background-image: url(image3.jpg);
   background-size: cover; /* Ensures the image covers the entire background */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents repeating the image */
@@ -121,6 +121,9 @@
   }
   
   .hero h1 {
+    line-height: 1.2;
+  margin: 0;
+  padding: 0;
     font-size: 48px;
     color: #0b1933;
     margin-bottom: 20px;
@@ -141,6 +144,25 @@
     font-weight: bold;
     font-size: 16px;
   }
+
+  /* Animation for the text */
+@keyframes slideInFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-text {
+  animation: slideInFromTop 1.5s ease-out;
+  font-size: 3rem; /* Adjust the size as needed */
+  font-weight: bold;
+}
+
   
   .features {
     padding: 80px 0;
@@ -248,7 +270,7 @@
   
   .pricing p {
     font-size: 16px;
-    color: #666;
+    color: #0e0e24;
     margin-bottom: 30px;
   }
   
