@@ -176,8 +176,8 @@
   }
   
   .features p {
-    font-size: 16px;
-    color: #666;
+    font-size: 25px;
+    color: #312424;
     margin-bottom: 40px;
   }
   
@@ -475,10 +475,13 @@
   text-align: center;
 }
 
+.community h1 {
+  font-size: 55px;
+}
 
 
 .community p {
-  font-size: 18px;
+  font-size: 25px;
   color: #0a0920;
   margin-bottom: 40px;
 }
@@ -549,5 +552,8 @@
   flex: 1; /* Pushes footer to bottom */
 }
 
+.pricing P {
+  font-size: 25px;
+}
 
 
